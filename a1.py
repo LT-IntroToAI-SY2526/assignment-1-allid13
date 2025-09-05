@@ -1,5 +1,5 @@
 # Assignment 1: AI-Generated Python Problems
-# Name: [Your Name Here]
+# Name: Allison Duran
 
 """
 AI-Generated Problem Set
@@ -20,7 +20,9 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[Paste the prompt you used to generate your problem set here]
+"I'm learning Python basics in a high school programming class. I have some experience with javascript. 
+Can you create 5-7 practice problems that cover Variables and basic data types, Conditionals (if/elif/else),
+ Loops (for and while),Functions, Basic list operations1'"
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -31,16 +33,18 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
+PROBLEM 1: Variables & Data Types
+"Create variables to store your name (string), age (integer), and height in meters (float). Then print a sentence like:
+My name is Alice, I am 16 years old and 1.7 meters tall."
 
-Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
+name = "Alice"
+age = 16
+height = 1.7
 
-Example inputs/outputs:
-- is_even(4) should return True
-- is_even(7) should return False
+Problem 2: Conditionals (if/elif/else)
+
+
+
 """
 
 
@@ -59,18 +63,13 @@ Example inputs/outputs:
 
 
 """
-Test all your solutions with different inputs
-
-Add asserts if you feel comfortable
-
-Example:
-print("Testing Problem 1:")
-print(f"is_even(4): {is_even(4)}")  # Should print True
-print(f"is_even(7): {is_even(7)}")  # Should print False
 """
-
-print("Testing Problem 1:")
-# Add your tests here
+#Problem number 1
+name = "Alice"
+age = 16
+height = 1.7
+print("My name is " + name + ", I am " + str(age)+ " years old and " + str(height)+ " meters tall.")
+#should print My name is Alice, I am 16 years old and 1.7 meters tall.
 
 print("\nTesting Problem 2:")
 # Add your tests here
