@@ -23,9 +23,7 @@ MY ORIGINAL AI PROMPT:
 "I'm learning Python basics in a high school programming class. I have some experience with javascript. 
 Can you create 5-7 practice problems that cover Variables and basic data types, Conditionals (if/elif/else),
  Loops (for and while),Functions, Basic list operations1'"
-
-Example: "I'm learning Python basics in a high school programming class. 
-I have some experience with Java. Can you create 5-7 practice problems that cover..."
+ 
 """
 
 # =============================================================================
@@ -42,7 +40,12 @@ age = 16
 height = 1.7
 
 Problem 2: Conditionals (if/elif/else)
+"Create a program that takes a numeric grade (0-100) and
+ converts it to a letter grade using this scale: A (90-100),
+B (80-89), C (70-79), D (60-69), F (below 60). Also indicate 
+if it's an honor roll grade (A or B)."
 
+"
 
 
 """
