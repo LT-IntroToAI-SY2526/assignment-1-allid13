@@ -40,10 +40,18 @@ age = 16
 height = 1.7
 
 Problem 2: Conditionals (if/elif/else)
-"Create a program that takes a numeric grade (0-100) and
- converts it to a letter grade using this scale: A (90-100),
-B (80-89), C (70-79), D (60-69), F (below 60). Also indicate 
-if it's an honor roll grade (A or B)."
+"Write a function grade_score(score) that
+takes a test score (0 to 100) and returns the grade as follows:"
+90 or above: "A"
+
+80 to 89: "B"
+
+70 to 79: "C"
+
+60 to 69: "D"
+
+Below 60: "F"
+
 
 "
 
