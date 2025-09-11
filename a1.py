@@ -42,6 +42,7 @@ height = 1.7
 Problem 2: Conditionals (if/elif/else)
 "Write a function grade_score(score) that
 takes a test score (0 to 100) and returns the grade as follows:"
+
 90 or above: "A"
 
 80 to 89: "B"
