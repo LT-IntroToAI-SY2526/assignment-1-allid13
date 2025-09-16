@@ -53,19 +53,57 @@ takes a test score (0 to 100) and returns the grade as follows:"
 
 Below 60: "F"
 
+if num < 60:
+    print("F")
+elif num >= 60 and num <= 69:
+    print("D")
+elif num >= 70 and num <= 79:
+    print("C")
+elif num >= 80 and num <= 89:
+    print ("B")
+elif num >= 90:
+    print("A")
 
-"
+Problem 3:Write a for loop that prints the numbers from 1 to 10.
+
+for i in range(11):
+    if i > 0 and i <= 10:
+        print(i)
+
+Problem 4: Write a while loop that starts at 5 and counts down to 1,
+ then prints "Blast off!".
+
+count = 5
+while count > 0:
+    print(count)
+    count -= 1
+print("Blast Off!")
+
+
+Problem 5: Write a function add(a, b) that returns the sum of two numbers.
+num_one = 3
+num_two = 7
+
+def add_numbers():
+    sum = num_one+num_two
+    print(sum)
+    
+add_numbers()
+
+
+Problem 6:Given a list of numbers, print the first, middle, and last elements.
+nums=[13,24,43,56,40]
+print("First:", nums[0])
+print("Middle:" , nums[2])
+print("Last:" , nums[4])
+
+
+
+
+
 
 
 """
-
-
-
-
-
-
-
-
 
 
 
@@ -74,8 +112,6 @@ Below 60: "F"
 # =============================================================================
 
 
-"""
-"""
 #Problem number 1
 name = "Alice"
 age = 16
@@ -83,16 +119,50 @@ height = 1.7
 print("My name is " + name + ", I am " + str(age)+ " years old and " + str(height)+ " meters tall.")
 #should print My name is Alice, I am 16 years old and 1.7 meters tall.
 
-print("\nTesting Problem 2:")
-# Add your tests here
+#Problem number 2
+num = 67
+num = 87
+num = 78
+if num < 60:
+    print("F")
+elif num >= 60 and num <= 69:
+    print("D")
+elif num >= 70 and num <= 79:
+    print("C")
+elif num >= 80 and num <= 89:
+    print ("B")
+elif num >= 90:
+    print("A")
+#
 
-print("\nTesting Problem 3:")
-# Add your tests here
+#Problem number 3
+for i in range(11):
+    if i > 0 and i <= 10:
+        print(i)
+# 
 
-print("\nTesting Problem 4:")
-# Add your tests here
+#Problem number 4
+count = 5
+while count > 0:
+    print(count)
+    count -= 1
+print("Blast Off!")
+# 
 
-print("\nTesting Problem 5:")
-# Add your tests here
+#Problem number 5
+num_one = 3
+num_two = 7
 
+def add_numbers():
+    sum = num_one+num_two
+    print(sum)
+    
+add_numbers()
+
+#Problem number 6
+nums=[13,24,43,56,40]
+print("First:", nums[0])
+print("Middle:" , nums[2])
+print("Last:" , nums[4])
+# Add your tests here
 
