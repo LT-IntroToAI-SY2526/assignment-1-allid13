@@ -133,13 +133,13 @@ elif num >= 80 and num <= 89:
     print ("B")
 elif num >= 90:
     print("A")
-#
+#this code should read the number that it being given under variable num and return it's correct letter grade.  
 
 #Problem number 3
 for i in range(11):
     if i > 0 and i <= 10:
         print(i)
-# 
+# this code should prrint out all number 1 through 10
 
 #Problem number 4
 count = 5
@@ -147,7 +147,7 @@ while count > 0:
     print(count)
     count -= 1
 print("Blast Off!")
-# 
+# this code should count backwards from 5 to 1 and then after it reaches 1 it should print out "blast off!"
 
 #Problem number 5
 num_one = 3
@@ -158,11 +158,12 @@ def add_numbers():
     print(sum)
     
 add_numbers()
+#this code should add the numbers 3 and 7 and output the sum which is 10
 
 #Problem number 6
 nums=[13,24,43,56,40]
 print("First:", nums[0])
 print("Middle:" , nums[2])
 print("Last:" , nums[4])
-# Add your tests here
+#this code should only print out the first number, the middle and the last not the rest of the numbers 
 
